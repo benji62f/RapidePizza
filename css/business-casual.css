@@ -53,6 +53,10 @@ hr {
     letter-spacing: 3px;
 }
 
+.dropdown-menu {
+    opacity: 0.9;
+}
+
 .img-full {
     min-width: 100%;
 }
