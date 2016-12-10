@@ -8,7 +8,7 @@ carte/menus
 carte/*
 
 admin  #stats
-admin/carte/*/[add|delete|edit]
+admin/carte/* /[add|delete|edit]
 admin/promo/add -- avec une date limite (avec option envoi de email)
 admin/stock
 

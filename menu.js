@@ -35,6 +35,9 @@ document.write('\
                 <li>\
                     <a href="contact.html">Contact</a>\
                 </li>\
+                <li>\
+                    <a href="panier-view.html">Mon panier</a>\
+                </li>\
             </ul>\
         </div>\
         <!-- /.navbar-collapse -->\
