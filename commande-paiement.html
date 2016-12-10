@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rapide Pizza</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="brand">Rapide Pizza</div>
+    <div class="address-bar">Cité Scientifique | 59650 Villeneuve d'Ascq | 03 20 84 00 84</div>
+
+    <!-- Navigation -->
+<script src="menu.js"></script>
+
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="box">
+              <h1>Choisissez votre mode de paiement</h1>
+              <div class="col-lg-3">
+                <button class="btn btn-default"><img src="img/monnaies.jpg" style="height:100px;" /></button>
+              </div>
+              <div class="col-lg-3">
+                <button class="btn btn-default"><img src="img/ticket-restaurant.jpg" style="height:100px;" /></button>
+              </div>
+              <div class="col-lg-3">
+                <button class="btn btn-default"><img src="img/carte-bleue.jpg" style="height:100px;" /></button>
+              </div>
+              <div class="col-lg-3">
+                <button class="btn btn-default"><img src="img/paypal.png" style="height:100px;" /></button>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Rapide Pizza 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    <script>
+      function confirmation_pizzeria() {
+          if(confirm("La pizzeria la plus proche de chez vous se trouve à Cité Scientifique 59650 Villeneuve D'Ascq.")){
+            $('.btn-to-next-page').click();
+          }
+      }
+    </script>
+</body>
+
+</html>

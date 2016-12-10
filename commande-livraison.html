@@ -53,13 +53,55 @@
 
                   <h2>À emporter</h2>
 
+                      <div class="row">
+                          <div class="form-group col-lg-12">
+                              <label>Votre ville</label>
+                              <input type="text" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-12">
+                              <button onClick="confirmation_pizzeria()" class="btn btn-default">Chercher une pizzeria</button>
+                          </div>
+                      </div>
 
               </div>
 
               <div class="col-lg-6">
 
                   <h2>À livrer à mon domicile</h2>
-                  
+                  <form role="form" action="commande-paiement.html">
+                      <div class="row">
+                          <div class="form-group col-lg-12">
+                              <label>Nom</label>
+                              <input type="text" class="form-control">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="form-group col-lg-2">
+                              <label>Numéro</label>
+                              <input type="email" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-4">
+                              <label>Rue</label>
+                              <input type="tel" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-6">
+                              <label>Complément d'adresse</label>
+                              <input type="tel" class="form-control">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="form-group col-lg-3">
+                              <label>Code postal</label>
+                              <input type="email" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-9">
+                              <label>Ville</label>
+                              <input type="tel" class="form-control">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="form-group col-lg-12">
+                              <button type="submit" class="btn-to-next-page btn btn-default">Envoyer</button>
+                          </div>
+                      </div>
+                  </form>
 
               </div>
 
@@ -90,8 +132,10 @@
     })
     </script>
     <script>
-      function confirmation_suppression() {
-          confirm("Êtes-vous sur ?");
+      function confirmation_pizzeria() {
+          if(confirm("La pizzeria la plus proche de chez vous se trouve à Cité Scientifique 59650 Villeneuve D'Ascq.")){
+            window.location.replace("commande-paiement.html");
+          }
       }
     </script>
 </body>
