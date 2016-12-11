@@ -53,21 +53,28 @@
 
 
 
-                  <form role="form" action="account-view.html">
+
                       <div class="row">
                         <div class="form-group col-lg-6">
                             <label>Nom</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" value="Rob">
                         </div>
                         <div class="form-group col-lg-6">
                             <label>Prénom</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" value="Robert">
                         </div>
                         <div class="clearfix"></div>
                           <div class="form-group col-lg-12">
                               <label>Email</label>
-                              <input type="text" class="form-control">
+                              <input type="text" class="form-control" value="robert.rob@etudiant.univ-lille1.fr">
                           </div>
+
+                          <div class="clearfix"></div>
+                          <div class="form-group col-lg-12">
+                              <label>Numéro de téléphone</label>
+                              <input type="text" class="form-control" >
+                          </div>
+
                           <div class="clearfix"></div>
                           <div class="form-group col-lg-12">
                               <label>Mot de passe</label>
@@ -79,11 +86,46 @@
                               <input type="password" class="form-control">
                           </div>
                           <div class="clearfix"></div>
+
+
+
+                          <h2>Adresse</h2>
+
+                          <div class="form-group col-lg-2">
+                              <label>Numéro</label>
+                              <input type="email" class="form-control" value="666">
+                          </div>
+                          <div class="form-group col-lg-4">
+                              <label>Rue</label>
+                              <input type="tel" class="form-control" value="Rue de la faim">
+                          </div>
+                          <div class="form-group col-lg-6">
+                              <label>Complément d'adresse</label>
+                              <input type="tel" class="form-control">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="form-group col-lg-3">
+                              <label>Code postal</label>
+                              <input type="email" class="form-control" value="59650">
+                          </div>
+                          <div class="form-group col-lg-9">
+                              <label>Ville</label>
+                              <input type="tel" class="form-control" value="VILLENEUVE D'ASCQ">
+                          </div>
+
+
+
                           <div class="form-group col-lg-12">
-                              <button type="submit" class="btn-to-next-page btn btn-default">Modifier mes informations</button>
+                              <a href="account-view.html">
+                                <button class=" btn btn-warning">Annuler</button>
+                                <button onClick="alert('Modifications enregistrées')" class=" btn btn-success">Modifier mes informations</button>
+                              </a>
                           </div>
                       </div>
-                  </form>
+
+
+
+
               </div>
 
 
