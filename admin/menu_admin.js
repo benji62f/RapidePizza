@@ -20,6 +20,9 @@ document.write('\
                     <a href="admin-stats.html">Statistiques</a>\
                 </li>\
                 <li>\
+                    <a href="admin-commandes.html">Commandes</a>\
+                </li>\
+                <li>\
                     <a href="admin-carte.html">Carte</a>\
                 </li>\
                 <li>\
@@ -28,8 +31,8 @@ document.write('\
                 <li>\
                     <a href="admin-stock.html">Stock</a>\
                 </li>\
-                <li>\
-                    <a href="index.html">Déconnexion</a>\
+                <li style="float:right">\
+                    <a href="index.html" >Déconnexion</a>\
                 </li>\
             </ul>\
         </div>\
