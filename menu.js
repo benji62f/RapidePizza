@@ -36,6 +36,9 @@ document.write('\
                     <a href="contact.html">Contact</a>\
                 </li>\
                 <li>\
+                    <a href="account-login.html">Mon compte</a>\
+                </li>\
+                <li style="float:right">\
                     <a href="panier-view.html">Mon panier</a>\
                 </li>\
             </ul>\
