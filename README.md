@@ -18,6 +18,9 @@ account/add
 account/edit
 account/history
 
+
+#site admin
+login
 admin  #stats
 admin/carte/* /[add|delete|edit]
 admin/promo/add -- avec une date limite (avec option envoi de email)
