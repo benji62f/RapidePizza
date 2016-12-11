@@ -47,28 +47,9 @@
 
         <div class="row">
 
-            <div class="box">
-              <h1 style="margin-bottom:50px;">Choisissez votre mode de paiement</h1>
-              <div class="col-lg-3">
-                <a href="commande-horaire.html">
-                  <button class="btn btn-default"><img src="img/monnaies.jpg" style="height:100px;" /></button>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="commande-horaire.html">
-                  <button class="btn btn-default"><img src="img/ticket-restaurant.jpg" style="height:100px;" /></button>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="commande-extern_paiement.html">
-                  <button class="btn btn-default"><img src="img/carte-bleue.jpg" style="height:100px;" /></button>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="commande-extern_paiement.html">
-                  <button class="btn btn-default"><img src="img/paypal.png" style="height:100px;" /></button>
-                </a>
-              </div>
+            <div class="box" style="background:#FFF">
+              <h1 style="margin-bottom:50px;">Redirection vers la page de paiement sécurisé</h1>
+              <img src="img/loading.gif" style="margin-left: 30%;margin-right: 30%;width: auto;">
             </div>
         </div>
 
@@ -84,15 +65,15 @@
             </div>
         </div>
     </footer>
-
-
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 </body>
-
+<script>
+  function loading(){
+    setTimeout(redirection, 2000);
+  }
+  function redirection() {
+      alert("Paiement accepté");
+      window.location.replace("commande-horaire.html");
+  }
+  loading();
+</script>
 </html>
