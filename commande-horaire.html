@@ -48,23 +48,30 @@
         <div class="row">
 
             <div class="box">
-              <h1>Choisissez votre mode de paiement</h1>
-              <div class="col-lg-3">
-                <a href="commande-horaire.html">
-                  <button class="btn btn-default"><img src="img/monnaies.jpg" style="height:100px;" /></button>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="commande-horaire.html">
-                  <button class="btn btn-default"><img src="img/ticket-restaurant.jpg" style="height:100px;" /></button>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <button class="btn btn-default"><img src="img/carte-bleue.jpg" style="height:100px;" /></button>
-              </div>
-              <div class="col-lg-3">
-                <button class="btn btn-default"><img src="img/paypal.png" style="height:100px;" /></button>
-              </div>
+              <h1>Quand souhaitez vous récupérer votre pizza ?</h1>
+
+                  <div class="col-lg-12">
+
+                      <form role="form" action="index.html">
+                          <div class="row">
+                            <select name="select"  class="form-control col-lg-6" >
+                              <option value="0" selected >Dès que possible</option>
+                              <option value="value1">19h</option>
+                              <option value="value2" >19h30</option>
+                              <option value="value2" >20h</option>
+                              <option value="value2" >20h30</option>
+                              <option value="value2" >21h</option>
+                            </select>
+
+                              <div class="clearfix"></div>
+                            <div class="form-group col-lg-6">
+                                <button type="submit" class="btn btn-default" onClick="confirmation_commande()" style="margin-top:10px">Envoyer</button>
+                            </div>
+
+                          </div>
+                      </form>
+                  </div>
+
             </div>
         </div>
 
@@ -90,10 +97,8 @@
     })
     </script>
     <script>
-      function confirmation_pizzeria() {
-          if(confirm("La pizzeria la plus proche de chez vous se trouve à Cité Scientifique 59650 Villeneuve D'Ascq.")){
-            $('.btn-to-next-page').click();
-          }
+      function confirmation_commande() {
+          alert("Votre commande a été prise en compte");
       }
     </script>
 </body>
