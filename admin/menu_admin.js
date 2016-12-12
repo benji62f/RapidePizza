@@ -31,7 +31,7 @@ document.write('\
                 <li>\
                     <a href="admin-stock.html">Stock</a>\
                 </li>\
-                <li style="float:right">\
+                <li>\
                     <a href="index.html" >Déconnexion</a>\
                 </li>\
             </ul>\
