@@ -1,6 +1,6 @@
 # RapidePizza website
 
-This is a prototype of a pizza sales site, produced as part of an university entrepreneurship project.
+This is a prototype of a pizza sales site, produced as part of a university entrepreneurship project.
 
 ## Features
 
