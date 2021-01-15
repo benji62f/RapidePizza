@@ -1,35 +1,30 @@
-carte/pizzas
-carte/menus
-carte/*
+# RapidePizza website
 
-panier #view
-panier/edit
+This is a prototype of a pizza sales site, produced as part of an entrepreneurship project.
 
-order/shipping
-order/payment
-order/payment/cb
-order/payment/paypal
-order/payment/cheques
-order/payment/liquides
-order/done
+## Client side
 
-account #view
-account/add
-account/edit
-account/history
+| Menu item        | Usefulness                  |
+|------------------|-----------------------------|
+| Accueil          | Home page                   |
+| La carte         | Product lists by categories |
+| A propos de nous | About Rapide Pizza          |
+| Contact          |                             |
+| Mon compte       | Account details             |
+| Mon panier       | Cart page                   |
 
+# Admin side
 
-#site admin
-login
-admin  #stats
-admin/carte/* /[add|delete|edit]
-admin/promo/add -- avec une date limite (avec option envoi de email)
-admin/stock
+| Menu item      | Usefulness            |
+|----------------|-----------------------|
+| Statistiques   | Useful informations   |
+| Commandes      | Orders informations   |
+| Carte          | Carte item management |
+| Promotions     | Discount management   |
+| Stock          | Inventory management  |
 
+# Delivery man side (not implemented)
 
-
-#site livreur
-login
-order/list
-order/id/confirm
-order/id/detail
+| Menu item      | Usefulness              |
+|----------------|-------------------------|
+| Commandes      | Orders waiting delivery |
